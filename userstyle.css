@@ -1,0 +1,62 @@
+
+.flow {
+  width: 80% !important;
+  margin-left: 20%;
+  padding-top: 0 !important;
+}
+
+#tab-bar.desktop {
+  width: 20% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  right: auto !important;
+  overflow-y: scroll;
+}
+
+#tab-list {
+  float: none !important;
+  width: 100% !important;
+  height: calc(100% - 3.077em) !important;
+  margin: 0 !important;
+  padding: 10px 0 0 0 !important;
+}
+
+#tab-list .tab {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+
+.tab-link, #tab-bar.mobile #closed-flow-list li a, #tab-bar.mobile #user-menu a {
+  padding: 0 0 0 20px !important;
+}
+
+.tab-close {
+  top: 0 !important;
+}
+
+.current .tab-caret-wrapper::before {
+  border-color: transparent transparent transparent #f9f9f9 !important;
+  left: 0 !important;
+  bottom: auto !important;
+}
+
+#tab-bar.desktop #user-menu-toggle {
+  position: relative !important;
+  right: auto !important;
+  float: right !important;
+}
+
+#more {
+  float: none !important;
+  padding: 0 !important;
+}
+
+#more span::after {
+  content: "Flow Mgmt Menu";
+  display: block;
+  margin-left: 10px;
+}
